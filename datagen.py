@@ -106,6 +106,3 @@ if __name__ == "__main__":
     df = generate_dynamic_pricing_data(periods=144 * 5)  # 5 days (10-min intervals)
     print(df.head())
     print("\nStats:\n", df.describe())
-
-
-print(df)
